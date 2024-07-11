@@ -1,0 +1,33 @@
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  background-color: var(--background-color);
+  color: var(--font-color);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+:root {
+  --background-color: #ffffff;
+  --background-accent: #f8f8f8;
+  --hero-background: #f3ebe1;
+  --accent-color: #7859cf;
+  --font-color: #333333;
+  --navigation-color: #f0ebff;
+  --button-hover-color: #9070ec;
+  --button-active-color: #593cac;
+  --gray-color: #bdbdbd;
+  --light-gray: #e2e2e2;
+}

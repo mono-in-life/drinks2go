@@ -1,0 +1,55 @@
+.card {
+  padding: 40px 20px 20px 20px;
+  background-color: var(--background-color);
+  border-radius: 4px;
+
+  @media (min-width: $tablet-width) {
+    padding: 50px 30px 30px 30px;
+    width: 349px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 317px;
+  }
+}
+
+.card__image {
+  margin: 0 auto;
+  margin-bottom: 24px;
+  display: block;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 30px;
+  }
+}
+
+.card__title {
+  margin: 0;
+  margin-bottom: 4px;
+  padding: 0;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 10px;
+  }
+}
+
+.card__description {
+  margin: 0;
+  margin-bottom: 16px;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 20px;
+  }
+}
+
+.card__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card__price {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 32px;
+}

@@ -1,0 +1,26 @@
+.header__wrapper {
+  margin: 0 auto;
+  position: relative;
+  padding-left:20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  @media (min-width: $tablet-width) {
+    padding: 0 20px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 0 40px;
+  }
+}
+
+.header__logo {
+  @media (min-width: $tablet-width) {
+    margin-right: 67px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-right: 162px;
+  }
+}

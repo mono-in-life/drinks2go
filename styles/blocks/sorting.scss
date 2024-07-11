@@ -1,0 +1,34 @@
+.sorting {
+  padding-left: 2px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+
+  @media (min-width: $tablet-width) {
+    justify-content: flex-end;
+  }
+}
+
+.sorting__select {
+  padding: 0 26px 0 13px;
+  width: 165px;
+  background-color: transparent;
+  border: none;
+  font-family: 'Montserrat', sans-serif;
+  color: var(--accent-color);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  appearance: none;
+  background-image: url("../../icons/stack.svg#select-arrow");
+  background-size: 10px 6px;
+  background-position: 96%;
+  background-repeat: no-repeat;
+  cursor: pointer;
+
+  @media (min-width: $tablet-width) {
+    margin-left: 10px;
+  }
+}

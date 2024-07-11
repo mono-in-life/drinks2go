@@ -1,0 +1,19 @@
+.cards__list {
+  margin: 0;
+  margin-bottom: 40px;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 20px;
+
+  @media (min-width: $tablet-width) {
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 70px;
+    gap: 30px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 60px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

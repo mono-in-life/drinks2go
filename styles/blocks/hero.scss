@@ -1,0 +1,23 @@
+.hero {
+  background-color: var(--hero-background);
+
+  @media (min-width: $tablet-width) and (max-width: 1439px) {
+    background-image: linear-gradient(#f3ebe1 640px, #ffffff 640px);
+  }
+}
+
+.hero__wrapper {
+  margin: 0 auto;
+  padding: 20px 20px 60px 20px;
+  position: relative;
+  text-align: center;
+
+  @media (min-width: $tablet-width) {
+    padding: 60px 80px 60px 80px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 30px 80px 60px 105px;
+    text-align: left;
+  }
+}

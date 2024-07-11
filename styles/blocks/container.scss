@@ -1,0 +1,11 @@
+.container {
+  min-width: 320px;
+
+  @media (min-width: $tablet-width) {
+    min-width: $tablet-width;
+  }
+
+  @media (min-width: $desktop-width) {
+    min-width: $desktop-width;
+  }
+}
